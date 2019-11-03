@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Tên" />
+
+    <EditText
+        android:id="@+id/edClassName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Tên Lớp" />
+
+    <EditText
+        android:id="@+id/edSubject"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Môn" />
+
+    <Button
+        android:id="@+id/btnSuaSinhVien"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Update"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
